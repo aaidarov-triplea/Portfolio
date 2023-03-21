@@ -1,0 +1,24 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 25%;
+    padding: 60px 30px;
+
+    /* background-color: rgb(20, 22, 22); */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 60px;
+}
+
+.logo__img {
+    width: 150px;
+    height: 150px;
+}

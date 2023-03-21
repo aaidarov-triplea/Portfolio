@@ -1,0 +1,31 @@
+.wrapper {
+    background: linear-gradient(to right bottom, #000000, #160b11, #20141e, #281b2e, #2b2440);
+}
+.avatar {
+    width: 184px;
+    height: 184px;
+    border: 7px solid #fff;
+    border-radius: 50%;
+}
+
+.row {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+
+.typewriter {
+    border-right: 2px solid #fff;
+    font-size: 27px;
+    color: #fff;
+  }
