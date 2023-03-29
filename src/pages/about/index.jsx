@@ -19,7 +19,7 @@ function About() {
                 <div className='about-row__col'>
                     <div className='about-info'>
                         <h3>I'm Aidarov Akzhol</h3>
-                        <p>Frontend developer Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolores?</p>
+                        <p>Frontend developer. Development for me is both a job and a hobby, so even after work I do development. I plan to become in 1.5 years Middle Developer</p>
                     </div>
                     <div className='about-row__col-2'>
                     <div className='personaly-info'>
@@ -31,7 +31,7 @@ function About() {
                     <div className='personaly-info'>
                         <span><b>Degree:</b> Junior</span>
                         <span><b>Mail:</b> aaidarov.triplea@gmail.com</span>
-                        <span><b>Linkedin</b> /aaidarov</span>
+                        <span><b>Location</b> Kyrgyzstan/Bishkek</span>
                     </div>
                     </div>
 

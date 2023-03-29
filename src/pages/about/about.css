@@ -1,19 +1,27 @@
 .about-wrapper {
-    padding: 0 20px;
+    padding: 24px 100px;
 }
 .about-row {
     display: flex;
-    justify-content: space-between;
     max-height: 357px;
 }
 
 .about-row__col {
-    padding-left: 25px;
+    padding-left: 40px;
 }
 .about-info {
     display: flex;
     flex-direction: column;
 }
+.about-info h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.about-info p {
+    max-width: 500px;
+}
+
 .about-img {
     min-width: 357px;
     height: 357px;
@@ -66,7 +74,7 @@ SKILLS STYLE
 .skills__wrapper {
     margin-top: 75px;
     background-color: #e8e4e4;
-    padding: 20px;
+    padding: 10px 100px;
 }
 
 .subtitle, .titles {
@@ -88,17 +96,33 @@ SKILLS STYLE
     justify-content: space-between;
 }
 .skills__info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 10px;
     width: 50%;
 }    
 
 .item {
     width: 50%;
+    margin-right: 30px;
 }
 
-input {
-    width: 90%;
+.item__range {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
+
+input[type="range"] {
+    appearance: none;
+    background-color: #101010;
+    height: 2px;
+    width: 100%;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 8px;
+    width: 8px;
+    border-radius: 5px;
+    background: #101010;
+    border: 1px solid #101010;
 }
